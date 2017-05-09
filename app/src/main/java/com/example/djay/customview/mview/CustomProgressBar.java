@@ -84,7 +84,7 @@ public class CustomProgressBar extends View {
         int radius = centre / 2 - (int) mCircleWidth / 2;// 半径
         mPaint.setStrokeWidth(mCircleWidth); // 设置圆环的宽度
         mPaint.setAntiAlias(true); // 消除锯齿
-        mPaint.setStyle(Paint.Style.STROKE); // 设置空心
+        mPaint.setStyle(Paint.Style.STROKE); // STROKE：设置为空心；FILL_AND_STROKE:设置为实心
         // 用于定义的圆弧的形状和大小的界限
         RectF oval = new RectF(
                 centre - radius,

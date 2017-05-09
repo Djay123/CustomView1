@@ -8,10 +8,24 @@
     <attr name="secondColor" format="color"/>
     <attr name="circleWidth" format="dimension"/>
     <attr name="speed" format="integer"/>
+    
+    <attr name="count" format="integer"/>
+    <attr name="splitSize" format="integer"/>
+    <attr name="radius" format="dimension"/>
+    <attr name="maxValue" format="float"/>
+
+    <attr name="dialRadius" format="dimension"/>
+    <attr name="dialMaxValue" format="integer"/>
+
     <attr name="imageScaleType">
         <enum name="fillXY" value="0"/>
         <enum name="center" value="1"/>
     </attr>
+    
+    
+    <attr name="startAngles" format="integer"/>
+    <attr name="endAngles" format="integer"/>
+
 
     <declare-styleable name="test">
         <attr name="titleText"/>
@@ -34,6 +48,33 @@
         <attr name="secondColor"/>
         <attr name="circleWidth"/>
         <attr name="speed"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomControlBar">
+        <attr name="firstColor"/>
+        <attr name="secondColor"/>
+        <attr name="circleWidth"/>
+        <attr name="count"/>
+        <attr name="splitSize"/>
+        <attr name="image"/>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="CustomCircleProgress">
+        <attr name="startAngles"/>
+        <attr name="endAngles"/>
+        <attr name="circleWidth"/>
+        <attr name="radius"/>
+        <attr name="maxValue"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomDialProgress">
+        <attr name="startAngles"/>
+        <attr name="endAngles"/>
+        <attr name="circleWidth"/>
+        <attr name="radius"/>
+        <attr name="maxValue"/>
+        <attr name="count"/>
     </declare-styleable>
 
 </resources>
